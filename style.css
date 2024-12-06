@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Heebo_72b39c, __Heebo_Fallback_72b39c';
+}
+
+.nft-section{
+    padding: 100px 0;
+    background-color: #0D1A2D;
+}
+
+.ntf-container {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #15273F;
+    border-radius: 10px;
+    
+}
+
+.ntf-image{
+    width: 100%;
+}
+.ntf-image img{
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.nft-parent {
+    width:85%;
+    margin: 50px auto;
+    color: white;
+    
+}
+.ntf-text p:nth-child(1) {
+    font-size: 18px;
+    margin:15px 0;
+    
+    line-height: 27px;
+    color: white;
+    text-align: start;
+    
+}
+.ntf-text p{
+    color: gray;
+    line-height: 27px;
+    font-size: 18px;
+    text-align: start;
+}
+.price-part{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #06FFFB;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}  
+
+.price-part h5:nth-child(2){
+    color: grey;
+}
+.last-part {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding-bottom: 25px;
+}
+
+
+.last-image img {
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+span{
+    color: gray;
+}
+
+@media screen and (max-width:688px) {
+    .ntf-container {
+        width: 90%;
+    }
+}
